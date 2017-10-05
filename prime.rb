@@ -16,5 +16,5 @@ def prime?(test_case)
     # increment i to avoid infinite loop
     i += 1
   end
-  count == 0 ? true : false
+  return count == 0 ? true : false
 end
