@@ -16,5 +16,6 @@ def prime?(test_case)
     # increment i to avoid infinite loop
     i += 1
   end
+  # if we find no divisors we have a prime, woohoo!
   divisible_count == 0 ? true : false
 end
