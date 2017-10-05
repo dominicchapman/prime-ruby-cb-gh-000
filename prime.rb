@@ -16,9 +16,5 @@ def prime?(test_case)
     # increment i to avoid infinite loop
     i += 1
   end
-  if count == 0
-    return true
-  else
-    return false
-  end
+  divisible_count == 0 ? true : false
 end
